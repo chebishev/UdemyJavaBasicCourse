@@ -16,7 +16,6 @@ public class Strings {
 
     public String sayHello(){
 
-
         String str1 = "Hello ";
         String str2 = "My Friends";
 
