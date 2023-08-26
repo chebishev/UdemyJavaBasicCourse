@@ -23,10 +23,20 @@ public class DataTypes {
         // double (precision 15-16 digits),
         double c = 3.14519;  // 64 bit
 
-        // char (0 - 255),
+        // char (0 - 255) ASCII?,
+        // use only single quotes or the IDE will want to convert it to a String
+        char myChar = 'a';
+        char myNumber = '7';
+        char mySymbol = '$';
+        char newLine = '\n';
+        char tab = '\t';
+
         // boolean (true/false)
         boolean isReady = true;
         boolean isRaining = false;
+
+        isRaining = true;
+        isReady = false;
 
         // Non-primitive data types:
 
@@ -35,6 +45,7 @@ public class DataTypes {
         // Class
 
         System.out.println(DataTypes.additionFunction());
+        System.out.println(DataTypes.playWithBooleans());
 
     }
 
@@ -47,6 +58,16 @@ public class DataTypes {
         int y = 3;
 
         return x + y;
+    }
+
+    public static boolean playWithBooleans(){
+
+        // Create your boolean variable "b1" here
+        // assign true value to b1.
+
+        boolean b1 = true;
+
+        return b1;
     }
 
 }
