@@ -19,7 +19,7 @@ public class Loops {
         for (int j = 1; j <= 10; j++) {
             System.out.println(j);
         }
-        System.out.println(Loops.sumUpNumbers());
+        System.out.println(sumUpNumbers());
     }
     //We need to sum the numbers from  1 to 10 using the loops!
 

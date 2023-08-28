@@ -12,8 +12,10 @@ public class ConditionalStatements {
         else {
             System.out.println("Sorry, you are too young to vote.");
         }
+
+        System.out.println(checkPositive());
     }
-    public boolean checkPositive(){
+    public static boolean checkPositive(){
 
         //Write a conditional statement, that checks if x is positive or not.
 

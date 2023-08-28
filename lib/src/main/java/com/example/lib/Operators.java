@@ -18,7 +18,7 @@ public class Operators {
         System.out.println(5 != 2); // true
         System.out.println(5 > 2); // true
         System.out.println(5 < 2); // false
-        System.out.println(5 >= 2); // false
+        System.out.println(5 >= 2); // true
         System.out.println(5 <= 2); // false
 
         // logical operators
@@ -29,13 +29,15 @@ public class Operators {
         boolean isReadyOrRaining = isReady || isRaining; // true
         boolean isReadyAndRaining = isReady && isRaining; // false
         boolean isReadyNotRaining = !isRaining; // true
+
+        System.out.println(returnTrueExp());
     }
     // We have 2 booleans in this code:
 
     //Your mission is to add a specific operator between x and y,
     // so that this function will return true (according to the boolean expressions)
 
-    public boolean returnTrueExp(){
+    public static boolean returnTrueExp(){
 
         boolean x = true;
         boolean y = true;

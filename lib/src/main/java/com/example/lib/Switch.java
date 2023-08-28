@@ -30,7 +30,7 @@ public class Switch {
             }
 
         }
-        System.out.println(Switch.daysOfMonth());
+        System.out.println(daysOfMonth());
     }
     public static int daysOfMonth() {
         //We need to create a conditional statement using a switch to check
