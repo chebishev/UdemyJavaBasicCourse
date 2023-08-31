@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.basic;
 
 public class Switch {
     public static void main(String[] args) {

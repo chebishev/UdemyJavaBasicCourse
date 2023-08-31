@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.basic;
 
 public class Arrays {
     public static void main(String[] args) {

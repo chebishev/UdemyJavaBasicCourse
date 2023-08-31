@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.basic;
 
 public class BreakAndContinue {
     public static void main(String[] args) {

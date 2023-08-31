@@ -1,4 +1,4 @@
-package com.example.lib;
+package com.example.lib.basic;
 
 public class Loops {
     public static void main(String[] args) {
