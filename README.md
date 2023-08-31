@@ -1,2 +1,2 @@
-# UdemyJavaBasicCourse
-The Complete Android 14 Developer Course - JavaBasicSection
+# UdemyJavaCourse
+The Complete Android 14 Developer Course - JavaSection
